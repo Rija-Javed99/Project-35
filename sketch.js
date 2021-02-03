@@ -1,5 +1,5 @@
 var balloon,balloonImage1,balloonImage2;
-var database;
+//create var database
 var height;
 
 function preload(){
@@ -10,9 +10,11 @@ function preload(){
    "Images/HotAirBallon-02.png","Images/HotAirBallon-03.png","Images/HotAirBallon-03.png","Images/HotAirBallon-03.png");
   }
 
-//Function to set initial environment
+
 function setup() {
-  database=firebase.database();
+ //indicate use of firebase
+   
+   
   createCanvas(1500,700);
 
   balloon=createSprite(250,650,150,150);
@@ -24,7 +26,7 @@ function setup() {
   textSize(20); 
 }
 
-// function to display UI
+
 function draw() {
   background(bg);
 
