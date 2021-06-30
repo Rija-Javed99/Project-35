@@ -10,7 +10,6 @@ function preload(){
    "Images/HotAirBallon-02.png","Images/HotAirBallon-03.png","Images/HotAirBallon-03.png","Images/HotAirBallon-03.png");
   }
 
-//Function to set initial environment
 function setup() {
   database=firebase.database();
   createCanvas(1500,700);
@@ -24,7 +23,7 @@ function setup() {
   textSize(20); 
 }
 
-// function to display UI
+
 function draw() {
   background(bg);
 
